@@ -44,6 +44,8 @@ Iam building the code inside a project directory called "My-project".
 Proceeding to create  a file  "docker-compose.yml" inside the project directory. in this file, we are bulding the codes to create containaers (for wordpress,mysql,nginx) and 2 volumes (for wordpress,mysql) then the network for enabling the connection between the containers.
 
 ~~~
+
+
 version: '3'
 
 services:
@@ -109,6 +111,7 @@ networks:
 
 
 ~~~
+
 server {
   listen 80;
     return 301 https://wordpress.jibin.online;
